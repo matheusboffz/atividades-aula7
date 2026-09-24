@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vértice Motors | Carros novos e seminovos</title>
+  <meta name="description" content="Carros novos e seminovos com laudo cautelar, garantia e financiamento em até 60x.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#"><span class="logo__mark">V</span>Vértice Motors</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn--primary btn--sm" href="#contato">Falar com a loja</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <span class="tag"><span class="tag__dot"></span>Estoque atualizado hoje</span>
+          <h1 class="hero__title">Seu próximo carro já está esperando por você.</h1>
+          <p class="hero__lead">Novos e seminovos revisados, com laudo cautelar, garantia de 12 meses e financiamento aprovado em até 48 horas.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#catalogo">Ver carros disponíveis</a>
+            <a class="btn btn--ghost" href="#contato">Simular financiamento</a>
+          </div>
+          <dl class="stats">
+            <div><dt class="stats__value">+1.200</dt><dd class="stats__label">carros vendidos</dd></div>
+            <div><dt class="stats__value">4,9/5</dt><dd class="stats__label">nota dos clientes</dd></div>
+            <div><dt class="stats__value">48h</dt><dd class="stats__label">aprovação de crédito</dd></div>
+          </dl>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__panel">
+            <svg class="hero__car" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="hero__chip">
+            <p class="hero__chip-label">Cobalto SUV 2025</p>
+            <p class="hero__chip-price">R$ 189.900</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-wrap" aria-label="Buscar carros">
+      <div class="container">
+        <form class="search" action="#catalogo">
+          <div class="field"><label class="field__label" for="marca">Categoria</label>
+            <select class="field__select" id="marca"><option>Todas</option><option>SUV</option><option>Sedan</option><option>Hatch</option><option>Picape</option><option>Elétrico</option></select></div>
+          <div class="field"><label class="field__label" for="preco">Faixa de preço</label>
+            <select class="field__select" id="preco"><option>Qualquer valor</option><option>Até R$ 90 mil</option><option>R$ 90 a 150 mil</option><option>Acima de R$ 150 mil</option></select></div>
+          <div class="field"><label class="field__label" for="ano">Ano</label>
+            <select class="field__select" id="ano"><option>Todos</option><option>2025</option><option>2023 ou mais novo</option><option>2021 ou mais novo</option></select></div>
+          <button class="btn btn--primary" type="submit">Buscar carros</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="catalogo">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2 class="section__title">Carros em destaque</h2>
+            <p class="section__sub">Todos revisados e prontos para levar hoje.</p>
+          </div>
+          <div class="chips">
+            <button class="chip chip--active" type="button">Todos</button>
+            <button class="chip" type="button">SUV</button>
+            <button class="chip" type="button">Sedan</button>
+            <button class="chip" type="button">Hatch</button>
+            <button class="chip" type="button">Elétricos</button>
+          </div>
+        </div>
+        <div class="grid-cards">
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--new">Novo</span>
+            <svg class="car car--blue" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">SUV</p>
+            <h3 class="card__title">Cobalto SUV 1.5 Turbo</h3>
+            <ul class="specs"><li>2025</li><li>Automático</li><li>Flex</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 189.900</p>
+                <p class="card__from">ou 60x de R$ 3.490</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--used">Seminovo</span>
+            <svg class="car car--red" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">Sedan</p>
+            <h3 class="card__title">Aurora Sedan 2.0</h3>
+            <ul class="specs"><li>2022</li><li>Automático</li><li>Flex</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 112.500</p>
+                <p class="card__from">ou 48x de R$ 2.890</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--new">Novo</span>
+            <svg class="car car--silver" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">Hatch</p>
+            <h3 class="card__title">Brisa Hatch 1.0</h3>
+            <ul class="specs"><li>2025</li><li>Manual</li><li>Flex</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 89.900</p>
+                <p class="card__from">ou 60x de R$ 1.790</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--eco">Elétrico</span>
+            <svg class="car car--green" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">Elétrico</p>
+            <h3 class="card__title">Nova E-300</h3>
+            <ul class="specs"><li>2025</li><li>Automático</li><li>Elétrico</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 239.000</p>
+                <p class="card__from">ou 60x de R$ 4.390</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--used">Seminovo</span>
+            <svg class="car car--black" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">Picape</p>
+            <h3 class="card__title">Titan Pick-up Diesel</h3>
+            <ul class="specs"><li>2021</li><li>Automático</li><li>Diesel</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 178.000</p>
+                <p class="card__from">ou 60x de R$ 3.260</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <span class="badge badge--used">Seminovo</span>
+            <svg class="car car--orange" viewBox="0 0 320 124" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de carro">
+<ellipse cx="160" cy="116" rx="130" ry="5" fill="#0f2233" opacity=".12"/>
+<path d="M18 88C18 74 30 68 48 64L88 40C96 34 104 32 116 32H190C204 32 214 36 224 44L250 62C276 66 302 70 302 88V94H18Z" fill="currentColor"/>
+<path d="M96 48L114 38H150V62H82Z" fill="#dbe7f2" opacity=".9"/>
+<path d="M158 38H188C196 38 202 41 208 46L226 62H158Z" fill="#dbe7f2" opacity=".9"/>
+<circle cx="82" cy="94" r="20" fill="#0f2233"/><circle cx="82" cy="94" r="9" fill="#c9d3dc"/>
+<circle cx="240" cy="94" r="20" fill="#0f2233"/><circle cx="240" cy="94" r="9" fill="#c9d3dc"/>
+</svg>
+          </div>
+          <div class="card__body">
+            <p class="card__type">Hatch</p>
+            <h3 class="card__title">Sírio Compacto 1.6</h3>
+            <ul class="specs"><li>2023</li><li>Manual</li><li>Flex</li></ul>
+            <div class="card__footer">
+              <div>
+                <p class="card__from">a partir de</p>
+                <p class="card__price">R$ 74.900</p>
+                <p class="card__from">ou 48x de R$ 1.940</p>
+              </div>
+              <a class="btn btn--primary btn--sm" href="#contato">Ver oferta</a>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="dark" id="diferenciais">
+      <div class="container dark__grid">
+        <div>
+          <h2 class="dark__title">Comprar carro com segurança não precisa ser difícil.</h2>
+          <p class="dark__text">Cuidamos da parte chata para você cuidar só da estrada.</p>
+        </div>
+        <ul class="features">
+          <li class="feature">
+            <span class="feature__icon"><svg class="feature__check" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg></span>
+            <h3 class="feature__title">Garantia de 12 meses</h3>
+            <p class="feature__text">Motor e câmbio cobertos em todos os seminovos da loja.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__icon"><svg class="feature__check" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg></span>
+            <h3 class="feature__title">Laudo cautelar incluso</h3>
+            <p class="feature__text">Cada carro passa por vistoria completa antes de ser anunciado.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__icon"><svg class="feature__check" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg></span>
+            <h3 class="feature__title">Financiamento em até 60x</h3>
+            <p class="feature__text">Simulação com os principais bancos e resposta em até 48 horas.</p>
+          </li>
+          <li class="feature">
+            <span class="feature__icon"><svg class="feature__check" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg></span>
+            <h3 class="feature__title">Troca com avaliação justa</h3>
+            <p class="feature__text">Traga o seu carro atual e use o valor como entrada.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="clientes">
+      <div class="container">
+        <h2 class="section__title">Quem já saiu daqui dirigindo</h2>
+        <div class="grid-quotes">
+        <figure class="quote">
+          <blockquote class="quote__text">“Fechei o financiamento em dois dias e a aprovação saiu antes do que eu esperava. Atendimento direto, sem enrolação.”</blockquote>
+          <figcaption class="quote__person">
+            <span class="quote__avatar">CM</span>
+            <span><strong class="quote__name">Carla Menezes</strong><span class="quote__city">Sorocaba, SP</span></span>
+          </figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote class="quote__text">“Levei o carro do laudo cautelar para um mecânico de confiança e tudo bateu. Foi a compra mais tranquila que já fiz.”</blockquote>
+          <figcaption class="quote__person">
+            <span class="quote__avatar">RT</span>
+            <span><strong class="quote__name">Rafael Tonelli</strong><span class="quote__city">Votorantim, SP</span></span>
+          </figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote class="quote__text">“Deram um preço justo no meu carro usado na troca e ainda entregaram o novo higienizado e com tanque cheio.”</blockquote>
+          <figcaption class="quote__person">
+            <span class="quote__avatar">JP</span>
+            <span><strong class="quote__name">Juliana Prado</strong><span class="quote__city">Itu, SP</span></span>
+          </figcaption>
+        </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-wrap" id="contato">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2 class="cta__title">Quer saber quanto vale o seu carro?</h2>
+            <p class="cta__text">Avaliação gratuita em até 30 minutos, sem compromisso.</p>
+          </div>
+          <a class="btn btn--light" href="#">Agendar avaliação</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="logo" href="#"><span class="logo__mark">V</span>Vértice Motors</a>
+          <p class="footer__about">Carros novos e seminovos com transparência do primeiro contato à entrega das chaves.</p>
+        </div>
+      <div>
+        <h3 class="footer__title">Loja</h3>
+        <ul class="footer__list">
+          <li><a href="#">Carros novos</a></li>
+          <li><a href="#">Seminovos</a></li>
+          <li><a href="#">Elétricos</a></li>
+          <li><a href="#">Vender meu carro</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__title">Atendimento</h3>
+        <ul class="footer__list">
+          <li><a href="#">Financiamento</a></li>
+          <li><a href="#">Troca com avaliação</a></li>
+          <li><a href="#">Garantia</a></li>
+          <li><a href="#">Perguntas frequentes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__title">Contato</h3>
+        <ul class="footer__list">
+          <li><a href="#">(15) 3000-0000</a></li>
+          <li><a href="#">contato@verticemotors.com.br</a></li>
+          <li><a href="#">Av. Exemplo, 1000 - Sorocaba, SP</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Vértice Motors. Projeto fictício para fins didáticos.</p>
+        <p>Preços e condições sujeitos a alteração.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
